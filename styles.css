@@ -3,6 +3,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
 }
 
 ul {
@@ -20,12 +21,16 @@ a:hover {
     transition: all ease-in-out .3s;
 }
 
+.hero, nav, footer {
+    background-color: #1F2937;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
     padding: 15px;
+    padding-bottom: 75px;;
 }
 
 .headerlogo {
@@ -41,4 +46,60 @@ nav {
     font-size: 18px;
     margin-left: auto;
     margin-right: 10%;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FaF8;
+}
+
+.herotext {
+    font-size: 18px;
+    color: #E5E7EB;
+    
+    
+}
+
+.herobtn {
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
+    font-weight: 450;
+    margin-top: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.heroimg {
+    width: 400px;
+    height: auto;
+}
+
+.heroleft, .heroright {
+    width: 50%;
+    padding-bottom: 65px;
+}
+
+.heroright {
+    margin-left: auto;
+    margin-right: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.heroleft {
+    margin-right: auto;
+    margin-left: 10%;
+
 }
