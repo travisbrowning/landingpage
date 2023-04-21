@@ -58,9 +58,7 @@ h1 {
 
 .herotext {
     font-size: 18px;
-    color: #E5E7EB;
-    
-    
+    color: #E5E7EB;   
 }
 
 .herobtn {
@@ -95,13 +93,11 @@ h1 {
     margin-right: 10%;
     margin-top: auto;
     margin-bottom: auto;
-
 }
 
 .heroleft {
     margin-right: auto;
     margin-left: 10%;
-
 }
 
 h2 {
@@ -116,12 +112,12 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 7vw;
+    margin-bottom: 50px;
 }
 
 .spritebox {
     text-align: center;
-    width: 150px;
-    
+    width: 150px;  
 }
 
 .box {
@@ -129,3 +125,26 @@ h2 {
     height: 75px; 
 }
 
+.quote {
+    background-color: #E5E7EB;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.zeldaquote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    text-align: center;
+    font-style: italic;
+}
+
+.quotee {
+    margin-top: -20px;;
+    margin-left: 80%;
+    font-weight: bold;
+    color: #1F2937;
+}
