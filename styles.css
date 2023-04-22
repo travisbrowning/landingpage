@@ -76,16 +76,17 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 25px;
+    padding-bottom: 65px;
 }
 
 .heroimg {
-    width: 400px;
+    width: 450px;
     height: auto;
 }
 
 .heroleft, .heroright {
     width: 50%;
-    padding-bottom: 65px;
+    
 }
 
 .heroright {
@@ -147,4 +148,123 @@ h2 {
     margin-left: 80%;
     font-weight: bold;
     color: #1F2937;
+}
+
+.signup {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupcontainer {
+    background-color: #3882F6;
+    padding: 25px 80px;
+    border-radius: 5px;
+    display: flex;
+    gap: 50px;
+}
+
+.calltoaction {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.actiontext {
+    color: white;
+    margin-top: -15px;
+    font-size: 12px;
+}
+
+.actionbtn {
+    background-color: #3882F6;
+    border: 2px white solid;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.signuptext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.actionbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .headerlogo {
+        margin: 0;
+        margin-bottom: 15px;
+        padding: 0;
+    }
+
+    .navlinks  {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .heroleft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+
+    .heroimg{
+        width: 75vw;
+        height: auto;
+        
+        
+    }
+
+    .heroright {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .spritecontainer {
+        flex-direction: column;
+    }
+
+    .signupcontainer {
+        flex-direction: column;
+    }
+
+
 }
